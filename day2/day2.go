@@ -15,7 +15,7 @@ func main() {
 }
 
 func day2Part1() {
-	reportList := parseInput("day2")
+	reportList := parseInput("day2Example")
 
 	validReports := 0
 	for reportNumber, report := range reportList {
@@ -51,7 +51,7 @@ func day2Part1() {
 }
 
 func day2Part2() {
-	reportList := parseInput("day2")
+	reportList := parseInput("day2Example")
 
 	validReports := 0
 	for _, report := range reportList {

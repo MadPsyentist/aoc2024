@@ -16,7 +16,7 @@ func main() {
 }
 
 func day1Part1() {
-	list1, list2 := parseInput("day1")
+	list1, list2 := parseInput("day1Example")
 
 	slices.SortFunc(list1, func(i, j int) int {
 		return i - j
@@ -35,7 +35,7 @@ func day1Part1() {
 }
 
 func day1Part2() {
-	list1, list2 := parseInput("day1")
+	list1, list2 := parseInput("day1Example")
 	map1 := make(map[int]int)
 	map2 := make(map[int]int)
 
